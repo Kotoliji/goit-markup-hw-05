@@ -565,20 +565,22 @@ border: none;
 .modal_btn:hover{
     background-color: #404bbf; 
     border: none; 
+    fill: #ffffff;
 }
 .modal_btn:focus{
     background-color: #404bbf; 
     border: none;
+     fill: #ffffff;
 }
 .clouse_svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal_btn:hover{
-    fill: #ffffff;
+/* .modal_btn:hover{
+    
 }
 .modal_btn:hover{
-    fill: #ffffff;
-}
+   
+} */
 .modal_title{
     font-weight: 500;
     font-size: 16px;
