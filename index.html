@@ -16,7 +16,7 @@
             <nav class="header_nav">
                <a class="link logo_link" href="./index.html">Web<span class="logo_link_up">Studio</span></a>
                 <ul class="nav_list">
-                    <li><a class="link nav_link" href="./index.html">Studio</a></li>
+                    <li><a class="link nav_link current" href="./index.html">Studio</a></li>
                     <li><a class="link nav_link" href="">Portfolio</a></li>
                     <li><a class="link nav_link" href="">Contacts</a></li>
                 </ul> 
@@ -289,8 +289,47 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer_form_section">
+                <p class="footer_form_p">Subscribe</p>
+                <form class="footer_form_list">
+                    <label class="footer_form_label">
+                        <input class="footer_input" type="email" name="email" placeholder="E-mail" >
+                        
+                    </label>
+                    <button class="footer_form_button" type="submit">Subscribe
+                        <svg class="footer_svg_tg" width="24" height="24">
+                            <use href="./images/icons_form.svg#icon-Frame_3" ></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
+    <div class="backdrop">
+        <div class="modal">
+            <button type="button" class="modal_btn">
+                <svg width="8" height="8" class="clouse_svg">
+                    <use url="./images/icons_form.svg#icon-close-black_3"></use>
+                </svg>
+            </button>
+            <p class="modal_title">
+                Leave your contacts and we will call you back
+            </p>
+            <form class="modal_form">
+                <div class="up_modal_form">
+                    <label for="user-name" class="name_modal_form">
+                        Name
+                        <div class="modal_conteyner">
+                            <input type="text" id="user-name" name="user-name" class="modal_input">
+                            <svg>
+                                <use></use>
+                            </svg>
+                        </div>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
 
